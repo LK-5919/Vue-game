@@ -5,19 +5,16 @@
         <div class="score">
           <div class="now">
             <span class="label">SCORE</span>
-            <span class="value">0</span>
+            <span class="value">{{score}}</span>
           </div>
           <div class="best">
             <span class="label">BEST</span>
-            <span class="value">0</span>
+            <span class="value">{{bestScore}}</span>
           </div>
         </div>
       </nav>
       <div class="desc">
-        <!-- <p>
-          <strong>Play 2048 Game online</strong>Join the numbers and get to the
-        </p> -->
-        <button>New Game</button>
+        <button @click="newGame">New Game</button>
       </div>
       <main>
         <div class="game-grid">
@@ -55,7 +52,7 @@
       </footer>
       <div class="mask status">
         <div class="content">Game Over!</div>
-        <button>Try again</button>
+        <button @click="newGame">Try again</button>
       </div>
     </div>
 </template>
@@ -64,7 +61,8 @@
 export default {
   data(){
     return {
-         
+         score: 0,  //当前游戏的分数
+         bestScore: 0,  //历史最佳分数
       };
   },
   created(){
@@ -123,6 +121,10 @@ export default {
         var e = event || window.event;
         e.returnValue = true;
       }
+    },
+    //开始新游戏
+    newGame(){
+      console.log("开始新游戏");
     },
   },
   computed: {
