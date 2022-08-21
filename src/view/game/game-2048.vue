@@ -44,39 +44,6 @@
         </div>
       </div>
       <div class="tile-container" ref="tileContainer">
-         <!-- <div class="tile tile-2 tile-position-1-1">
-            <div class="tile-inner">2</div>
-          </div>
-          <div class="tile tile-4 tile-position-1-2">
-            <div class="tile-inner">4</div>
-          </div>
-          <div class="tile tile-8 tile-position-1-3">
-            <div class="tile-inner">8</div>
-          </div>
-          <div class="tile tile-16 tile-position-1-4">
-            <div class="tile-inner">16</div>
-          </div>
-          <div class="tile tile-32 tile-position-2-1">
-            <div class="tile-inner">32</div>
-          </div>
-          <div class="tile tile-64 tile-position-2-2">
-            <div class="tile-inner">64</div>
-          </div>
-          <div class="tile tile-128 tile-position-2-3">
-            <div class="tile-inner">128</div>
-          </div>
-          <div class="tile tile-256 tile-position-2-4">
-            <div class="tile-inner">256</div>
-          </div>
-          <div class="tile tile-512 tile-position-3-1">
-            <div class="tile-inner">512</div>
-          </div>
-          <div class="tile tile-1024 tile-position-3-2">
-            <div class="tile-inner">1024</div>
-          </div>
-          <div class="tile tile-2048 tile-position-3-3">
-            <div class="tile-inner">2048</div>
-          </div> -->
       </div>
     </main>
     <footer>
